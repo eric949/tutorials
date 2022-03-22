@@ -1,6 +1,8 @@
 # Git Basics
 
-## git add
+[Git Add](#add)
+
+## add
 
 ### Descrição:
 Este comando permite adicionar os arquivos que serão commitados na próxima etapa.
@@ -18,7 +20,7 @@ Podemos também adicionar todos arquivos com determidada extenção dentro de um
 ```
 git add Folder/\*.cs
 ```
-Ou então arquivos que contenham algo na palavra, como por exemplo:
+Ou então podemos usar '*' para adicionar todos os arquivos que contenham uma palavra. Segue exemplo (neste exemplo serão adicionados todos os arquivos que começam com 'log-' com a extenção '.txt')
 ```
 git add log-*.txt
 ```
