@@ -20,6 +20,10 @@ Podemos também adicionar todos arquivos com determidada extenção dentro de um
 ```
 git add Folder/\*.cs
 ```
+Podemos ainda adicionar todos os arquivos com extenções parecidas, por exemplo, caso queira adicionar todos os arquivos com extenções .cs e .csproj, poderá usar o seguinte comando:
+```
+git add Folder/\*.cs*
+```
 Ou então podemos usar '*' para adicionar todos os arquivos que contenham uma palavra. Segue exemplo (neste exemplo serão adicionados todos os arquivos que começam com 'log-' com a extenção '.txt')
 ```
 git add log-*.txt
